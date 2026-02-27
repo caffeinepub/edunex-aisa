@@ -1,0 +1,81 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Rename branding from 'EduNex Aisa' to 'EduNex AI' across the entire app",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Replace 'EduNex Aisa' with 'EduNex AI' in the frontend HTML page title",
+      "acceptanceCriteria": [
+        "The browser tab/title bar shows 'EduNex AI' instead of 'EduNex Aisa'."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag from 'EduNex Aisa' to 'EduNex AI' to ensure the browser tab displays the correct brand name."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Replace 'EduNex Aisa' with 'EduNex AI' in the Navbar component",
+      "acceptanceCriteria": [
+        "The navbar logo and all related text reads 'EduNex AI'.",
+        "No instance of 'EduNex Aisa' remains in the Navbar component."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Replace all occurrences of 'EduNex Aisa' with 'EduNex AI' in the logo text, aria-labels, and any other visible or hidden text within the Navbar component."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Replace 'EduNex Aisa' with 'EduNex AI' in the Footer component",
+      "acceptanceCriteria": [
+        "The footer branding, copyright, and mission statement all read 'EduNex AI'.",
+        "No instance of 'EduNex Aisa' remains in the Footer component."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace all occurrences of 'EduNex Aisa' with 'EduNex AI' in the branding text, copyright line, mission statement, and any other visible text within the Footer component."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Replace 'EduNex Aisa' with 'EduNex AI' across all remaining frontend source files",
+      "acceptanceCriteria": [
+        "A full-text search for 'EduNex Aisa' in the frontend directory returns zero results.",
+        "All user-facing and configuration references display 'EduNex AI'."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Replace any occurrences of 'EduNex Aisa' with 'EduNex AI' in the Home page component, including hero text, feature cards, and any other visible references."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Replace any occurrences of 'EduNex Aisa' with 'EduNex AI' in the App component, including any comments or string literals that reference the old brand name."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Replace any occurrences of 'EduNex Aisa' with 'EduNex AI' in the Tailwind configuration file comments or metadata."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Replace any occurrences of 'EduNex Aisa' with 'EduNex AI' in the global stylesheet comments or any text references."
+        }
+      ]
+    }
+  ]
+}

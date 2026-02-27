@@ -1,0 +1,105 @@
+{
+  "kind": "build_request",
+  "title": "Rename branding from 'EduNex Aisa' to 'EduNex AI' across the entire app",
+  "projectName": "EduNex AI",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the frontend HTML page title (frontend/index.html).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "it's EduNex AI Not EduNex Aisa"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab/title bar shows 'EduNex AI' instead of 'EduNex Aisa'."
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Navbar component (logo text, aria labels, and any other visible or hidden text).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "it's EduNex AI Not EduNex Aisa"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The navbar logo and all related text reads 'EduNex AI'.",
+        "No instance of 'EduNex Aisa' remains in the Navbar component."
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Footer component (branding text, copyright line, mission statement, and any other visible text).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "it's EduNex AI Not EduNex Aisa"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The footer branding, copyright, and mission statement all read 'EduNex AI'.",
+        "No instance of 'EduNex Aisa' remains in the Footer component."
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' across all remaining frontend source files including Home.tsx, App.tsx, tailwind.config.js, index.css, and any other file that contains the old name.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "it's EduNex AI Not EduNex Aisa"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A full-text search for 'EduNex Aisa' in the frontend directory returns zero results.",
+        "All user-facing and configuration references display 'EduNex AI'."
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the backend Motoko source file (backend/main.mo), including any comments or string literals that reference the old name.",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "it's EduNex AI Not EduNex Aisa"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No instance of 'EduNex Aisa' remains in backend/main.mo.",
+        "Backend functionality is unaffected by the rename."
+      ]
+    }
+  ],
+  "constraints": [
+    "Only rename the brand string — do not alter any logic, styling, or functionality.",
+    "Do not modify files listed in frontend.immutablePaths."
+  ],
+  "nonGoals": [
+    "Changing any visual design, color tokens, or layout.",
+    "Adding or removing features.",
+    "Renaming internal variable or function names that do not surface in the UI."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

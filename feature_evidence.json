@@ -1,0 +1,77 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-frontend-html-page-title-frontend-index-html",
+      "featureTitle": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the frontend HTML page title (frontend/index.html).",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-navbar-component-logo-text-aria-labels-and-any-other-visible-or-hidden-text",
+      "featureTitle": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Navbar component (logo text, aria labels, and any other visible or hidden text).",
+      "files": [
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-footer-component-branding-text-copyright-line-mission-statement-and-any-other-visible-text",
+      "featureTitle": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Footer component (branding text, copyright line, mission statement, and any other visible text).",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-across-all-remaining-frontend-source-files-including-home-tsx-app-tsx-tailwind-config-js-index-css-and-any-other-file-that-contains-the-old-name",
+      "featureTitle": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' across all remaining frontend source files including Home.tsx, App.tsx, tailwind.config.js, index.css, and any other file that contains the old name.",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

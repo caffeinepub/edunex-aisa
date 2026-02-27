@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "EduNex AI is an educational website featuring an AI study assistant that can solve any academic problem, notes for all classes (school and university), a PYQ (Previous Year Questions) and sample papers section, and an academic tools section that supports adding more tools in the future.",
+  "architectural_notes": [
+    "Academic tools section should be modular/extensible to allow adding new tools in the future"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-design-and-implement-a-cohesive-visual-theme-for-edunex-aisa-a-modern-academic-aesthetic-using-deep-teal-and-amber-accents-clean-sans-serif-typography-card-based-layouts-and-subtle-gradients-apply-this-consistently-across-all-pages-and-components",
+      "title": "Design and implement a cohesive visual theme for EduNex Aisa: a modern academic aesthetic using deep teal and amber accents, clean sans-serif typography, card-based layouts, and subtle gradients. Apply this consistently across all pages and components.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-main-navigation-structure-with-five-top-level-sections-accessible-from-a-persistent-navbar-home-ai-study-assistant-notes-pyq-sample-papers-and-academic-tools",
+      "title": "Create a main navigation structure with five top-level sections accessible from a persistent navbar: Home, AI Study Assistant, Notes, PYQ & Sample Papers, and Academic Tools.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-ai-study-assistant-section-where-users-can-type-any-academic-question-or-problem-into-a-chat-style-interface-the-backend-should-store-conversation-messages-question-answer-pairs-per-session-for-now-return-a-placeholder-mock-answer-from-the-backend-until-a-real-ai-integration-is-added",
+      "title": "Implement an AI Study Assistant section where users can type any academic question or problem into a chat-style interface. The backend should store conversation messages (question + answer pairs) per session. For now, return a placeholder/mock answer from the backend until a real AI integration is added.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-notes-section-where-notes-can-be-created-stored-browsed-and-read-notes-must-be-categorized-by-level-school-or-university-and-by-class-grade-or-subject-backend-should-persist-all-notes-with-fields-title-content-class-grade-subject-level-school-university-and-creation-date",
+      "title": "Implement a Notes section where notes can be created, stored, browsed, and read. Notes must be categorized by level (School or University) and by class/grade or subject. Backend should persist all notes with fields: title, content, class/grade, subject, level (School/University), and creation date.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-pyq-previous-year-questions-and-sample-papers-section-users-can-browse-and-filter-papers-by-exam-type-subject-class-grade-and-year-backend-should-persist-entries-with-fields-title-type-pyq-or-sample-paper-subject-class-grade-year-and-a-file-url-or-text-content",
+      "title": "Implement a PYQ (Previous Year Questions) and Sample Papers section. Users can browse and filter papers by exam type, subject, class/grade, and year. Backend should persist entries with fields: title, type (PYQ or Sample Paper), subject, class/grade, year, and a file URL or text content.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-academic-tools-section-that-displays-a-grid-of-tool-cards-each-tool-card-has-a-name-icon-emoji-short-description-and-a-launch-button-the-list-of-tools-must-be-stored-in-the-backend-so-new-tools-can-be-added-in-the-future-without-code-changes-seed-the-backend-with-at-least-3-initial-placeholder-tools-e-g-unit-converter-formula-reference-citation-generator",
+      "title": "Implement an Academic Tools section that displays a grid of tool cards. Each tool card has a name, icon/emoji, short description, and a launch button. The list of tools must be stored in the backend so new tools can be added in the future without code changes. Seed the backend with at least 3 initial placeholder tools (e.g., Unit Converter, Formula Reference, Citation Generator).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-home-landing-page-for-edunex-aisa-with-a-hero-section-tagline-call-to-action-buttons-linking-to-each-main-section-a-feature-highlights-row-showing-the-four-key-sections-and-a-footer-with-the-site-name-and-tagline",
+      "title": "Create a Home/landing page for EduNex Aisa with a hero section (tagline, call-to-action buttons linking to each main section), a feature highlights row showing the four key sections, and a footer with the site name and tagline.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-frontend-html-page-title-frontend-index-html",
+      "title": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the frontend HTML page title (frontend/index.html).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-navbar-component-logo-text-aria-labels-and-any-other-visible-or-hidden-text",
+      "title": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Navbar component (logo text, aria labels, and any other visible or hidden text).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-in-the-footer-component-branding-text-copyright-line-mission-statement-and-any-other-visible-text",
+      "title": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the Footer component (branding text, copyright line, mission statement, and any other visible text).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-every-occurrence-of-edunex-aisa-with-edunex-ai-across-all-remaining-frontend-source-files-including-home-tsx-app-tsx-tailwind-config-js-index-css-and-any-other-file-that-contains-the-old-name",
+      "title": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' across all remaining frontend source files including Home.tsx, App.tsx, tailwind.config.js, index.css, and any other file that contains the old name.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "AI study assistant that can solve any academic/study problem",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Notes section covering all classes for school and university",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "PYQ (Previous Year Questions) and sample papers section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Academic tools section with ability to add more tools in the future",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Replace every occurrence of 'EduNex Aisa' with 'EduNex AI' in the backend Motoko source file (backend/main.mo), including any comments or string literals that reference the old name.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "EduNex Aisa",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

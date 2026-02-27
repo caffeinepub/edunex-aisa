@@ -1,0 +1,16 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system using deep teal primary and amber accent palette, custom font imports (Inter + Sora), gradient utilities, and semantic design tokens for both light and dark modes.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Inter/Sora font families, custom teal and amber color scales, enhanced border radius, card/teal/amber box shadows, and fade/slide-in animations.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations — notes (getAllNotes, createNote, filter hooks), papers (getAllPapers, addPaper), and tools (getAllTools, initializeTools) with proper cache invalidation.",
+  "frontend/src/App.tsx": "Main app with TanStack Router setup, five routes (/, /ai-assistant, /notes, /pyq, /tools), and a root layout wrapping Navbar, page Outlet, Footer, and Toaster.",
+  "frontend/src/components/Navbar.tsx": "Responsive sticky navbar with corrected \"EduNex AI\" branding, five navigation links with active highlighting, mobile hamburger menu, and a \"Study Now\" CTA button.",
+  "frontend/src/components/Footer.tsx": "Reusable footer with corrected \"EduNex AI\" branding, quick navigation links, mission statement, copyright year, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/pages/Home.tsx": "Landing page with hero section, stats bar, four feature highlight cards, and a CTA banner — all references updated to \"EduNex AI\".",
+  "frontend/src/pages/AIAssistant.tsx": "Chat-style AI study assistant page with conversation history, subject-aware mock responses, suggested questions, loading states, and keyboard submit support.",
+  "frontend/src/components/NoteForm.tsx": "Modal dialog form for creating notes with title, content, subject, class/grade, and level (School/University) fields, using the createNote mutation with toast feedback.",
+  "frontend/src/pages/Notes.tsx": "Notes library page with search, level filter, subject filter, responsive card grid with expandable content, skeleton loading states, and Add Note modal integration.",
+  "frontend/src/components/PaperForm.tsx": "Modal dialog form for adding PYQ or sample papers with title, type, subject, class/grade, year, and file URL fields, using the addPaper mutation with toast feedback.",
+  "frontend/src/pages/PYQ.tsx": "PYQ & Sample Papers page with search, type filter, year filter, responsive card grid showing paper metadata and external links, skeleton loading, and Add Paper modal integration.",
+  "frontend/src/pages/Tools.tsx": "Academic Tools page with auto-initialization of default tools, responsive card grid with launch buttons, extensibility info banner, and a \"Coming Soon\" section for future tools.",
+  "frontend/index.html": "HTML entry point with updated browser tab title showing \"EduNex AI\"."
+}
